@@ -1,6 +1,6 @@
 ## Isolation Forest Python Vs. Go
 
-Github Link: [insert here] 
+Github Link: https://github.com/jssuzuki1/assignment_7a
 
 Go is fast. Our objective is to see whether Go can generate the same results in a faster time than Python.
 
@@ -47,7 +47,7 @@ The e-XpertSolutions package does not have "auto" as an option, which means that
 
 ## Runtime Comparison.
 
-For a benchmark test, we loop through reading in the data set and running an isolation forest on it. The average runtimes are stored in go_average_runtime.txt and python_average_runtime.txt. 
+For a benchmark test, we loop through reading in the data set and running an isolation forest on it. In the results folder, the average runtimes are stored in go_average_runtime.txt and python_average_runtime.txt.
 
 In the case of Python, looping through this process 100 times yields an average runtime of 6.798282 seconds on my laptop. 
 
